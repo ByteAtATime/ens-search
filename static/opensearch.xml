@@ -2,7 +2,6 @@
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
     <ShortName>ENS</ShortName>
     <Description>Search and access Ethereum Name Service (ENS) accounts and websites directly from your address bar!</Description>
-<!--    <Image width="16" height="16" type="image/x-icon">[https://example.com/favicon.ico]</Image>-->
-    <Url type="text/html" method="get" template="http://localhost:5173/search?q={searchTerms}" />
-    <Url type="application/x-suggestions+json" method="get" template="http://localhost:5173/api/suggestions?q={searchTerms}" />
+    <Url type="text/html" method="get" template="https://ens.byteatatime.dev/search?q={searchTerms}" />
+    <Url type="application/x-suggestions+json" method="get" template="https://ens.byteatatime.dev/api/suggestions?q={searchTerms}" />
 </OpenSearchDescription>
